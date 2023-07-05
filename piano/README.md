@@ -1,6 +1,6 @@
 # Piano
 
-This is a simple Piano project built using HTML, CSS, and JavaScript. You cam use a keyboard or a mouse to play the piano.
+This is a simple Piano project built using HTML, CSS, and JavaScript. You can use a keyboard or a mouse to play the piano.
 
 ## Screenshot
 
