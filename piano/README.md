@@ -4,7 +4,7 @@ This is a simple Piano project built using HTML, CSS, and JavaScript. You cam us
 
 ## Screenshot
 
-![Desktop Version of Coming Soon Template](https://github.com/SandipanIO/piano/blob/main/screenshots/piano.png)
+![Desktop Version of Coming Soon Template](https://github.com/SandipanIO/javascript-projects/blob/master/piano/screenshots/piano.png)
 
 ## Links
 
