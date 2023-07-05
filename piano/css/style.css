@@ -1,0 +1,104 @@
+html {
+   box-sizing: border-box;
+ }
+ 
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+body {
+   font-family: sans-serif;
+}
+ 
+.piano {
+   background-color: #00471b;
+   width: 494px;
+   height: 290px;
+   margin: 80px auto;
+   padding: 90px 20px 0 20px;
+   position: relative;
+   border-radius: 10px;
+}
+
+.logo {
+   width: 200px;
+   position: absolute;
+   top: 23px;
+}
+ 
+.keys {
+   background-color: #040404;
+   width: 454px;
+   height: 180px;
+   padding-left: 2px;
+   position: relative;
+   display: flex;
+}
+
+.key {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding-bottom: 1em;
+   cursor: pointer;
+}
+ 
+.key-white {
+   background-color: #ffffff;
+   width: 41px;
+   height: 175px;
+   border-radius: 0 0 3px 3px;
+   margin: 2px;
+}
+ 
+.key-black {
+   color: #fff;
+   background-color: #1d1e22;
+   content: "";
+   position: absolute;
+   width: 32px;
+   height: 100px;
+   border-radius: 0 0 3px 3px;
+}
+
+.key-black:nth-child(1) {
+   left: 30px;
+}
+
+.key-black:nth-child(2) {
+   left: 76px;
+}
+
+.key-black:nth-child(3) {
+   left: 165px;
+}
+
+.key-black:nth-child(4) {
+   left: 210px;
+}
+
+.key-black:nth-child(5) {
+   left: 256px;
+}
+
+.key-black:nth-child(6) {
+   left: 346px;
+}
+
+.key-black:nth-child(7) {
+   left: 392px;
+}
+
+.key-black:nth-child(8) {
+   left: 480px;
+}
+
+.key-black:nth-child(9) {
+   left: 526px;
+}
+
+.key-black:nth-child(10) {
+   left: 572px;
+}

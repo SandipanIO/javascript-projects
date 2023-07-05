@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Piano</title>
+</head>
+<body>
+   <div class="piano">
+      <div id="keys" class="keys">
+         <div data-key="KeyE" class="key key-black">E</div>
+         <div data-key="KeyR" class="key key-black">R</div>
+         <div data-key="KeyT" class="key key-black">T</div>
+         <div data-key="KeyY" class="key key-black">Y</div>
+         <div data-key="KeyU" class="key key-black">U</div>
+         <div data-key="KeyI" class="key key-black">I</div>
+         <div data-key="KeyO" class="key key-black">O</div>
+         
+         <div data-key="KeyA" class="key key-white">A</div>
+         <div data-key="KeyS" class="key key-white">S</div>
+         <div data-key="KeyD" class="key key-white">D</div>
+         <div data-key="KeyF" class="key key-white">F</div>
+         <div data-key="KeyG" class="key key-white">G</div>
+         <div data-key="KeyH" class="key key-white">H</div>
+         <div data-key="KeyJ" class="key key-white">J</div>
+         <div data-key="KeyK" class="key key-white">K</div>
+         <div data-key="KeyL" class="key key-white">L</div>
+         <div data-key="Semicolon" class="key key-white">;</div>
+      </div>
+   </div>
+
+   <div class="audios">
+      <audio data-key="KeyA" src="sound/key01.mp3"></audio>
+      <audio data-key="KeyE" src="sound/key02.mp3"></audio>
+      <audio data-key="KeyS" src="sound/key03.mp3"></audio>
+      <audio data-key="KeyR" src="sound/key04.mp3"></audio>
+      <audio data-key="KeyD" src="sound/key05.mp3"></audio>
+      <audio data-key="KeyF" src="sound/key06.mp3"></audio>
+      <audio data-key="KeyT" src="sound/key07.mp3"></audio>
+      <audio data-key="KeyG" src="sound/key08.mp3"></audio>
+      <audio data-key="KeyY" src="sound/key09.mp3"></audio>
+      <audio data-key="KeyH" src="sound/key10.mp3"></audio>
+      <audio data-key="KeyU" src="sound/key11.mp3"></audio>
+      <audio data-key="KeyJ" src="sound/key12.mp3"></audio>
+      <audio data-key="KeyK" src="sound/key13.mp3"></audio>
+      <audio data-key="KeyI" src="sound/key14.mp3"></audio>
+      <audio data-key="KeyL" src="sound/key15.mp3"></audio>
+      <audio data-key="KeyO" src="sound/key16.mp3"></audio>
+      <audio data-key="Semicolon" src="sound/key17.mp3"></audio>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
